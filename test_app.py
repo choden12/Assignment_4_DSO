@@ -49,6 +49,3 @@ def test_delete_nonexistent_task(client):
     response = client.delete('/tasks/999')
     assert response.status_code == 404
 
-# The sample test from assignment (just to show you followed the example)
-def test_sample():
-    assert 1 + 1 == 2
