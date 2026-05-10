@@ -66,7 +66,10 @@ There were quite a few issues I encountered during the process of developing a f
 -In summary, this assignment was instrumental in enabling me to create an end-to-end CI/CD pipeline for a Task Manager API, created using Flask, pytest, GitHub Actions, and Render. In this process, I created an API with four different endpoints, created seven unit tests for checking its correct functioning, used GitHub actions for automatic running of tests with every push, and finally, made the deployment live at https://assignment-4-dso.onrender.com/. While doing this assignment, many lessons have been learned regarding test isolation, error handling, platform-specific deployment settings, and using the Git workflow. All of this culminated in a completely automated CI/CD pipeline in which each push is tested and then deployed, thus giving hands-on experience of actual DevOps.
 
 
-
+## References
+- Pallets Projects. (2025). Flask documentation. https://flask.palletsprojects.com/
+- pytest Development Team. (2025). pytest documentation. https://docs.pytest.org/
+- Render. (2025). Render documentation. https://render.com/docs
 
 
 
