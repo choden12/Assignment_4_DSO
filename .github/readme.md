@@ -57,7 +57,7 @@ There were quite a few issues I encountered during the process of developing a f
 - Issue: Initially, I did not know how to properly organize my files. I was not sure where to locate app.py, test_app.py, and .github/workflows/ directory.
 - Solution: I researched examples on the internet and chose to store all of my files in the root directory. I manually constructed the directory tree in .github/workflows/ to store ci.yml.
 
-## Making GitHub Actions Work Correctly
+### Making GitHub Actions Work Correctly
 - What the problem was: When pushing my code for the first time to GitHub, Actions did not run successfully. I could not understand the errors shown because I could not find out why Python was unable to import Flask.
 
 - What helped me solve the problem: I found out that I omitted the installation of Flask and pytest in my requirements.txt file. After installing all the needed packages and pushing once more, everything started working smoothly.
